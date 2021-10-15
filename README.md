@@ -3,7 +3,9 @@ just my simple notes on reinforcement learning. I don't do much with RNNs and te
 
 
 #### NOTES  
-q-learning is a type of reinforcement learning. An agent acts inside of an environment.  
+q-learning is a type of reinforcement learning. An agent acts inside of an environment to achieve a reward.  
+If the agent does well, it gets a cookie, otherwise, a slap in the face of variable strength according to how badly it did.  
+
 ENVIRONMENT is where the agent explores. Example includes video game world.  
 AGENT is the actor which acts on or explores the environment. Example includes video game character.  
 STATE is just the status of the agent, a Mario character jumping for instance, or currently in the air, location.  
