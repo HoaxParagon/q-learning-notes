@@ -14,3 +14,8 @@ REWARD is a value with some magnitude based on quality of preceeding action. The
 Reward is the most important part of the model. The agent is attempting to max out the reward by acting on the environment.  
 Reward is a measure of how well the model has done by acting on its environment.  
 
+
+| a1 | a2 | a3 |  
+|----|----|----|
+| 0  | 5  | 10 |
+| 5  | 10 | 0  |
