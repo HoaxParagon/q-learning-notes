@@ -15,6 +15,7 @@ Reward is the most important part of the model. The agent is attempting to max o
 Reward is a measure of how well the model has done by acting on its environment.  
 
 
+#### Q-table example
 | a1 | a2 | a3 |  
 |----|----|----|
 | 0  | 5  | 10 |
