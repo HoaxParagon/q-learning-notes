@@ -26,4 +26,4 @@ The table above shows each of three actions and the time step. It's a matrix mad
 Each index is updated according to some equation like this one: Q[state,action] = Q[state,action] + learning_rate * (reward + GAMMA * np.max(Q[new_state, :]) - Q[state,action])  
 where the value at state and action are updated to the current value + our learning rate * the quantity of our new state's actions - the current value at (state, action).  
 
-
+During each step some values are calculated such as reward, epsilon or gamma. The next state is also prepared by and received from the step() method.  
