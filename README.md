@@ -20,3 +20,10 @@ Reward is a measure of how well the model has done by acting on its environment.
 |----|----|----|
 | 0  | 5  | 10 |
 | 5  | 10 | 0  |
+
+The table above shows each of three actions and the time step. It's a matrix made of states and actions. We zero init this matrix because there are no known states with any previously taken action; we start fresh.  
+
+Each index is updated according to some equation like this one: Q[state,action] = Q[state,action] + learning_rate * (reward + GAMMA * np.max(Q[new_state, :]) - Q[state,action])  
+where the value at state and action are updated to the current value + our learning rate * the quantity of our new state's actions - the current value at (state, action).  
+
+
